@@ -1,6 +1,6 @@
 import React from "react";
 import { useData } from "../Context/DataContext";
-import { GraficoVendas } from "../Components/GraficoVendas";
+import GraficoVendas from "../Components/GraficoVendas";
 
 export const Resumo = () => {
   const { data } = useData();
